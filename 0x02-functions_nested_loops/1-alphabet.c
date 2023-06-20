@@ -1,13 +1,16 @@
 #include "main.h"
+
 /**
- * print_aphabet - mMake the alphabet
+ * main - Starting point
+ * print_aphabet - Make the alphabet
  * Retuen: void
  */
+
 void print_alphabet(void)
 {
 	char d;
 
-	for (d = '0'; d <= 'z'; d++)
+	for (d = 'a'; d <= 'z'; d++)
 	{
 		_putchar(d);
 	}
