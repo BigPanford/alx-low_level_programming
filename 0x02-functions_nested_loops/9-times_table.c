@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * time_table - print the 9 times table, starting with 0
+ * times_table - print the 9 times table, starting with 0
  * void times_table(void):x, y, z, u, d  -  this are character to be checked
  * Retuun: empty output
  */
