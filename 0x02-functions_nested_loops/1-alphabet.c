@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - Starting point
  * print_aphabet - Make the alphabet
- * Retuen: void
+ * Return: void
  */
 
 void print_alphabet(void)
