@@ -2,9 +2,9 @@
 
 /**
  * print_alphabet - make alphabet x10 times
- * Return void
+ * Return: the return is void followed by new line
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
 {
 	char d;
 	int e = 0;
