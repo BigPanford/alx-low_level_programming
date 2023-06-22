@@ -5,7 +5,6 @@
  * void times_table(void):x, y, z, u, d  -  this are character to be checked
  * Retuun: empty output
  */
-
 void times_table(void)
 {
 	int x, y, z, u, d;
