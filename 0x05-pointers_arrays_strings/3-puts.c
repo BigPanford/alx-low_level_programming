@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * _puts - function that prints a string
  * @str: - pointer to the string
@@ -7,12 +6,10 @@
  */
 void _puts(char *str)
 {
-	int i = 0;
 
-	while (str[i])
+	while (*str != '\0')
 	{
-	putchar(str[i]);
-	i++;
+	_putchar(*str++);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
